@@ -1,0 +1,66 @@
+@charset "UTF-8";
+body {
+    /* background-color: #fffeee; */
+    /* background-color: #fee; */
+    background-color: #f5f2e5;
+    /* background-image: url(../images/bg.png); */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-image: url(../images/bg-airplane.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+    /* height: 100vh; */
+
+}
+
+html {
+    font-size: 100%;
+}
+
+h1 {
+    color: #0bd;
+    background-color: #faa;
+    font-size: 2rem;
+    /* 明朝体 */
+    /* font-family: serif; */
+    /* font-weight: bold; */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: "Yu Gothic";
+}
+
+p {
+    font-size: 20px;
+    font-family: "ヒラギノ丸ゴ Pro W4","Hiragino Maru Gothic Pro", sans-serif, serif;
+    /* font-family: serif; */
+    font-weight: bold;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+div p {
+    color: red;
+}
+
+.item {
+    background: #0bd;
+    color: #fff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    /* 上から下 */
+    /* flex-direction: column; */
+    /* 右から左 */
+    flex-direction: row-reverse;
+    /* 下から上 */
+    /* flex-direction: column-reverse; */
+    justify-content: center;
+
+}
